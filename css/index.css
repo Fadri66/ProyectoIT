@@ -1,0 +1,77 @@
+#carouselExampleFade{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+header{
+background-color: #1c1c1c;
+}
+
+#navbarsExample10{
+    background-color: #3e3e3e;
+}
+
+#navbarsExample10 a {
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    }
+    #navbarsExample10 a:before,
+    #navbarsExample10 a:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transform: scale(0);
+    transition: 0.5s;
+    }
+    #navbarsExample10 a:before {
+    border-bottom: 2px solid #e34345;
+    border-left: 2px solid #e34345;
+    transform-origin: 0 100%;
+    }
+    #navbarsExample10 a:after {
+    border-top: 2px solid #e34345;
+    border-right: 2px solid #e34345;
+    transform-origin: 100% 0%;
+    }
+    #navbarsExample10 a:hover:after,
+    #navbarsExample10 a:hover:before {
+    transform: scale(1);
+    }
+    #navbarsExample10 a:hover{
+    color: #e34345;
+}
+
+
+.img{
+    width: 200px;
+    height: 130px;
+    margin-left: 50px;
+}
+
+
+.btn {
+    background-color: #e34345;;
+}
+
+#foooter{
+    background-color: #1c1c1c;
+}
+
+
+#carouselExampleControlsNoTouching{
+    margin-left: 100px;
+    margin-top: 65px;
+}
+
+#titleArt{
+    margin-top: 65px;
+    text-align: right;
+}
